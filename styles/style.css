@@ -1,225 +1,226 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
 }
 
 .btn:hover {
-    background-color: #FFFFFF;
-    color: #E02C6D;
-    transition: 0.5s;
+  background-color: #ffffff;
+  color: #e02c6d;
+  transition: 0.5s;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: baseline;
+}
 
 /*-------------------------
    Header Section
    ------------------------- */
 
 header {
-    background-color: #2D25A0;
+  background-color: #2d25a0;
 }
 
 .header-content:hover .header-image {
-    transform: rotate(60deg);
-    transition: transform 0.3s ease-in;
+  transform: rotate(60deg);
+  transition: transform 0.3s ease-in;
 }
 
 .header-content {
-    width: 1160px;
-    height: 677px;
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-    align-items: center;
+  max-width: 1160px;
+  height: 677px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  align-items: center;
+  margin: 0 auto;
 }
 
-.header-left,.header-right  {
-    width: 50%;
+.header-left,
+.header-right {
+  width: 50%;
 }
 
 .header-left h1 {
-    color: #FFFFFF;
-    font-size: 64px;
-    font-weight: 700;
-    margin-bottom: 30px;
-    width: 485px;
+  color: #ffffff;
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  width: 485px;
 }
 
 .header-left a {
-    color: #FFFFFF;
-    text-decoration: none;
-    background-color: #E02C6D;
-    padding: 10px 25px;  
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #e02c6d;
+  padding: 10px 25px;
 }
 
 .header-left i {
-    margin-left: 8px;
+  margin-left: 8px;
 }
 
 .header-image img {
-    width: 556px;
-    height: 438px;
+  width: 556px;
+  height: 438px;
 }
-
 
 /* -----------------
   Players Blocks
 ----------------- */
 
 .player-profiles {
-    margin: 70px 180px;
-    width: 1050px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 30px;
-    grid-column-gap: 30px;
-    }
+  margin: 70px auto;
+  width: 1050px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 30px;
+  grid-column-gap: 30px;
+}
 
 .single-p-block {
-    width: 330px;
-    height: 474px;
-    padding: 15px 15px 30px 15px;
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-       }
+  max-width: 330px;
+  height: 474px;
+  padding: 15px 15px 30px 15px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
 
 .single-p-block img {
-    width: 100%;
-    /* height: 255px; */
+  width: 100%;
+  /* height: 255px; */
 }
 
 .single-p-block h2 {
-    font-size: 28px;
-    font-weight: 700;
-    margin: 15px 0px 10px 0px;
+  font-size: 28px;
+  font-weight: 700;
+  margin: 15px 0px 10px 0px;
 }
 
 .single-p-block p {
-    font-size: 16px;
-    font-weight: 400;
+  font-size: 16px;
+  font-weight: 400;
 }
-
-
 
 /*---------------------
   Highlights Section 
   ------------------ */
 
+.highlights {
+  margin: 150px 0;
+}
 
-  .highlights-content {
-    width: 1160px; 
-    margin: 150px 180px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.highlights-content {
+  width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .highlights-left {
-    /* width: 469px; */
-    margin-right: 66px;
-}
-
-.highlights-right  {
-    width: 50%;
+  width: 45%;
 }
 
 .highlights-left h1 {
-    color: #0A0826;
-    font-size: 48px;
-    font-weight: 700;
-    margin-bottom: 16px;
-    width: 469px;
+  color: #0a0826;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  max-width: 469px;
 }
 
 .highlights-left p {
-    margin-bottom: 48px;
-    width: 404px;
+  margin-bottom: 48px;
+  max-width: 404px;
 }
 
 .highlights-left a {
-    color: #FFFFFF;
-    text-decoration: none;
-    background-color: #E02C6D;
-    padding: 10px 25px;  
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #e02c6d;
+  padding: 10px 25px;
 }
 
 .highlights-left i {
-    margin-left: 8px;
+  margin-left: 8px;
 }
 
+.highlights-right {
+  width: 45%;
+}
 
 .highlights-image img {
-    width: 567px;
-    height: 427px;
+  max-width: 100%;
 }
-
 
 /*---------------------
   Best Player Section 
   ------------------ */
 .best-players {
-    background-color: #2D25A0;
+  background-color: #2d25a0;
 }
 
 .best-player-contents {
-    width: 1160px;
-    margin: 0px 180px;
-    padding: 100px 0px;
+  max-width: 1160px;
+  margin: 0px auto;
+  padding: 100px 0px;
 }
 
 .best-player-contents h1 {
-    font-size: 48px;
-    font-weight: 700;
-    text-align: center;
-    color: #FFFFFF;
-    margin: 0px 0px 70px 0px;
-    
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  margin: 0px 0px 70px 0px;
 }
 
 .text-coloring {
-    color: #E02C6D;
+  color: #e02c6d;
 }
 
-  .messi {
-    margin: 0px 180px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.messi {
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .best-player-left {
-    margin-right: 66px;
+  width: 45%;
 }
 
 .best-player-left:hover .highlights-image {
-    transform: scale(1.2);
-    transition: transform 1s;
+  transform: scale(1.2);
+  transition: transform 1s;
 }
 
-.best-player-right  {
-    width: 50%;
+.best-player-right {
+  width: 45%;
 }
 
 .best-player-right h3 {
-    color: #FFFFFF;
-    font-size: 28px;
-    font-weight: 700;
-    margin-bottom: 16px;
-    width: 469px;
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  width: 469px;
 }
 
 .best-player-right p {
-    color: #FFFFFF;
-    margin-bottom: 48px;
-    width: 404px;
+  color: #ffffff;
 }
 
 .best-player-left img {
-    width: 567px;
-    
+  width: 567px;
 }
 
 /*---------------------
@@ -227,220 +228,208 @@ header {
   ------------------ */
 
 .footer-contents {
-    /* width: 1160px; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0px 0px 70px 0px;
+  /* width: 1160px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0px 70px 0px;
 }
 
 .logo img {
-    height: 100px;
+  height: 100px;
 }
 
 .footer-contents .icons {
-    margin-bottom: 25px;
-  }
+  margin-bottom: 25px;
+}
 
-  .fab {
-      width: 17px;
-      color: #969BAB;
-      background-color: rgb(199, 201, 209);
-      padding: 7px;
-      border-radius: 50%;
-      margin: 0px 5px;
-  }
+.fab {
+  width: 17px;
+  color: #969bab;
+  background-color: rgb(199, 201, 209);
+  padding: 7px;
+  border-radius: 50%;
+  margin: 0px 5px;
+}
 
-  .footer-contents p {
-      font-size: 18px;
-      font-weight: 400;
-  }
+.footer-contents p {
+  font-size: 18px;
+  font-weight: 400;
+}
 
-
-  /*----------------------------------------------------------------------------------------------
+/*----------------------------------------------------------------------------------------------
   ------------------------------------------------------------------------------------------------
   --------------------------------------------   Mobile Responsiveness ---------------------------
    -----------------------------------------------------------------------------------------------
    ----------------------------------------------------------------------------------------------- */
 
-   @media only screen and (max-width: 480px) {
-    
-    html,body {
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden;
-    }
+@media only screen and (max-width: 480px) {
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
 
-    /*-------------------------
+  /*-------------------------
    Header Section
    ------------------------- */
 
-    .header-content {
-        width: 100%;
-        height: auto;
-        padding: 60px 15px;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    
-    }
+  .header-content {
+    width: 100%;
+    height: auto;
+    padding: 60px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
-     .header-left,.header-right  {
-        width: 100%;
-     }
-    
-    .header-left h1 {
-        color: #FFFFFF;
-        font-size: 36px;
-        font-weight: 700;
-        margin-bottom: 30px;
-        width: 278px;
-        text-align: left;
-    }
-    
-    .header-left a {
-        color: #FFFFFF;
-        font-size: 16px;
-        font-weight: 500;
-        text-decoration: none;
-        background-color: #E02C6D;
-        padding: 10px 25px;
-        margin-bottom: 50px;
-    }
-    
-    .header-left i {
-        margin-left: 8px;
-    }
-    
-    .header-image img {
-        margin-top: 50px;
-        padding: 15px;
-        width: 100%;
-        height: auto;
-  
-    }
+  .header-left,
+  .header-right {
+    width: 100%;
+  }
 
-    /* --------------------------------------------------------------------------------------
+  .header-left h1 {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    width: 278px;
+    text-align: left;
+  }
+
+  .header-left a {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: #e02c6d;
+    padding: 10px 25px;
+    margin-bottom: 50px;
+  }
+
+  .header-left i {
+    margin-left: 8px;
+  }
+
+  .header-image img {
+    margin-top: 50px;
+    padding: 15px;
+    width: 100%;
+    height: auto;
+  }
+
+  /* --------------------------------------------------------------------------------------
     --------------------------------------------------------------------------------------
   -------------------------------------------Players Blocks-----------------------------
 --------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------- */
 
-.player-profiles {
+  .player-profiles {
     margin: 50px 15px 50px 15px;
     max-width: 100%;
     display: flex;
     flex-wrap: wrap;
-    }
+  }
 
-.single-p-block {
+  .single-p-block {
     max-width: 100%;
     height: auto;
     padding: 15px 15px 30px 15px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-      }
+  }
 
-.single-p-block img {
+  .single-p-block img {
     width: 100%;
-    
-}
+  }
 
-.single-p-block h2 {
+  .single-p-block h2 {
     font-size: 28px;
     font-weight: 700;
     margin: 15px 0px 10px 0px;
-}
+  }
 
-.single-p-block p {
+  .single-p-block p {
     font-size: 16px;
     font-weight: 400;
-}
+  }
 
-/*---------------------
+  /*---------------------
   Highlights Section 
   ------------------ */
 
-
-.highlights-content {
+  .highlights-content {
     max-width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     margin: 70px 30px 70px 30px;
-}
+  }
 
- .highlights-left {
-    width: 100%; 
+  .highlights-left {
+    width: 100%;
     margin-bottom: 30px;
-    
-       
-} 
+  }
 
-.highlights-right  {
+  .highlights-right {
     width: 100%;
-}
+  }
 
-.highlights-left h1 {
+  .highlights-left h1 {
     width: 100%;
-    color: #0A0826;
+    color: #0a0826;
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 16px;
-   
-}
+  }
 
-.highlights-left p {
+  .highlights-left p {
     width: 100%;
     margin-bottom: 24px;
-    
-}
+  }
 
-.highlights-left a {
-    color: #FFFFFF;
+  .highlights-left a {
+    color: #ffffff;
     text-decoration: none;
-    background-color: #E02C6D;
-    padding: 10px 25px; 
-    margin-bottom: 25px; 
-}
+    background-color: #e02c6d;
+    padding: 10px 25px;
+    margin-bottom: 25px;
+  }
 
-.highlights-left i {
+  .highlights-left i {
     margin-left: 8px;
-}
+  }
 
-
-.highlights-image img {
+  .highlights-image img {
     max-width: 85%;
     height: auto;
-   
-}
+  }
 
-
-/*---------------------
+  /*---------------------
   Best Player Section 
   ------------------ */
-  
-.best-players {
-    display: none;
-}
 
-/*--------------------------------------------------------------------
+  .best-players {
+    display: none;
+  }
+
+  /*--------------------------------------------------------------------
 ----------------------------- Video Highlights Section----------------
 -----------------------------------------------------------------------  */
-    
-iframe {
-    max-width:85%;
+
+  iframe {
+    max-width: 85%;
     height: 100%;
-    margin: auto
-}
+    margin: auto;
+  }
 
-
-/*---------------------
+  /*---------------------
   Footer Section 
   ------------------ */
 
@@ -451,29 +440,28 @@ iframe {
     align-items: center;
     justify-content: center;
     padding: 0px 0px 70px 0px;
-}
+  }
 
-.logo img {
+  .logo img {
     width: 271px;
     height: 63px;
-}
+  }
 
-.footer-contents .icons {
+  .footer-contents .icons {
     margin-bottom: 25px;
   }
 
   .fab {
-      width: 17px;
-      color: #969BAB;
-      background-color: rgb(199, 201, 209);
-      padding: 7px;
-      border-radius: 50%;
-      margin: 0px 5px;
+    width: 17px;
+    color: #969bab;
+    background-color: rgb(199, 201, 209);
+    padding: 7px;
+    border-radius: 50%;
+    margin: 0px 5px;
   }
 
   .footer-contents p {
-      font-size: 18px;
-      font-weight: 400;
+    font-size: 18px;
+    font-weight: 400;
   }
-
-  }
+}
