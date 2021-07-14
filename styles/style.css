@@ -365,7 +365,7 @@ header {
 
 
 .highlights-content {
-    width: 360px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -413,8 +413,8 @@ header {
 
 
 .highlights-image img {
-    width: 328px;
-    height: 248px;
+    width: 100%;
+    height: auto;
    
 }
 
@@ -438,7 +438,7 @@ iframe {
   ------------------ */
 
   .footer-contents {
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
