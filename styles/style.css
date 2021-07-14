@@ -40,12 +40,13 @@ header {
   flex-wrap: wrap;
   margin: auto;
   align-items: center;
+  justify-content: space-around;
   margin: 0 auto;
 }
 
 .header-left,
 .header-right {
-  width: 50%;
+  width: 45%;
 }
 
 .header-left h1 {
@@ -68,8 +69,7 @@ header {
 }
 
 .header-image img {
-  width: 556px;
-  height: 438px;
+  max-width: 556px;
 }
 
 /* -----------------
@@ -338,9 +338,8 @@ header {
   }
 
   .single-p-block {
-    max-width: 100%;
     height: auto;
-    padding: 15px 15px 30px 15px;
+    padding: 15px 10px 30px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
   }
 
@@ -365,24 +364,19 @@ header {
 
   .highlights-content {
     max-width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    margin: 70px 30px 70px 30px;
+    margin: 70px auto;
   }
 
   .highlights-left {
-    width: 100%;
+    width: 90%;
     margin-bottom: 30px;
   }
 
   .highlights-right {
-    width: 100%;
+    width: 90%;
   }
 
   .highlights-left h1 {
-    width: 100%;
     color: #0a0826;
     font-size: 30px;
     font-weight: 700;
